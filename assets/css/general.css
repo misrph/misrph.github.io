@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  background: white;
+  color: black;
+  -webkit-text-size-adjust: 100%;
+}
+
+.header {
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+.logo {
+  margin: 0px;
+  width: 5%;
+  height: 100%;
+  float: left;
+}
+
+.middle {
+  margin: 0px;
+  width: 15%;
+  height: 100%;
+  float: right;
+}
+
+.user {
+  margin: 0px;
+  width: 15%;
+  height: 100%;
+  float: right;
+  background-color: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.createrequest{
+  background-color: inherit;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.createrequest.active {
+  background-color: #ddd;
+  color: black;
+}
+
+.createrequest:hover, .createrequest:focus {
+  background-color: #ddd;
+  color: black;
+}
+.usermenu  {
+  background-color: inherit;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.usermenu:hover, .usermenu:focus {
+  background-color: #ddd;
+  color: black;
+}
+
+.usermenu_content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 15%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.usermenu_content a {
+  color: black;
+  padding: 16px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.usermenu_content a:hover {background-color: #ddd;}
+
+.show {display:block;}
+
+.form_outbox {
+  display: block;
+  margin: auto;
+  width: 40%;
+  height: 380px;
+  background-color: black;
+}
+
+.form_inbox {
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+}
+
+input.login {
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+input.loginsubmit[type=submit] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 4px;
+}
+
+input.loginsubmit[type=submit]:hover {
+  background-color: orange;
+}
+
+img.loginlogo {
+  display: block;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  padding-top: 20px;
+}
+
+.login_form {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+
+.body {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.navbar {
+  width: 15%;
+  height: 600px;
+  background-color: #eee;
+  margin: 0;
+  float: left;
+}
+
+.navbar a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.navbar a.active {
+  background-color: darkred; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.navlogo {
+  width: 30px;
+  height: 30px;
+}
+
+.result {
+  margin: 0;
+  width: 85%;
+  height: 600px;
+  background-color: #eee;
+  float: right;
+  overflow: auto;
+}
+
+.reqtab {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+.reqtab td, .reqtab th {
+  padding: 8px;
+}
+
+table.reqtab td:hover td {
+  background-color: indianred;
+}
+
+.reqtab th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #eee;
+  color: black;
+}
+
+.newrequestform {
+  width: 95%;
+  padding: 15px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  margin-left: 15px;
+}
+
+.newrequestfor[type=submit]:hover {
+  background-color: orange;
+}
+
+table.responsetable {
+  width: 95%;
+}
+
+table.responsetable td {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.respond {
+  padding: 10px;
+  width: 50%;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
